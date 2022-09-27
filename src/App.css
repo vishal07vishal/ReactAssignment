@@ -1,0 +1,95 @@
+body{
+ 
+  background-image: linear-gradient(rgb(176, 212, 241),
+  rgb(231, 161, 210),
+  rgb(244, 244, 248));
+height:700px;
+}
+
+.heading{
+  text-align: center;
+  text-shadow: 3px 3px 1px rgb(228, 180, 83);
+}
+
+
+.funcc{
+  padding: 25px;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: lightblue;
+  color: black;
+  border: 2px solid black;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: fixed;
+  top: 120px;
+  left: 300px;
+}
+
+.funcc:hover{
+  background-color:rgb(216, 243, 162);
+}
+
+.classcomp{
+
+  font-size: 15px;
+  padding: 25px;
+  font-weight: 600;
+  background-color: lightblue;
+  color: black;
+  border: 2px solid rgb(70, 63, 63);
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  text-align: center;
+  cursor: pointer;
+  position: fixed;
+  right: 350px;
+  top: 120px;
+}
+
+.classcomp:hover{
+  background-color:rgb(216, 243, 162);
+}
+
+
+.box1{
+  height: 250px;
+  width: 500px;
+  text-align: center;
+  background-color: lightblue;
+  border: 1px black solid;
+  border-radius: 20px;
+  position: relative;
+  top: 50px;
+  position: fixed;
+  top: 300px;
+  left: 100px;
+  box-shadow: 5px 5px 10px rgb(13, 13, 13);
+}
+
+.box2{
+  height: 250px;
+  width: 500px;
+  text-align: center;
+  background-color: #9ce7f4;
+  border: 1px black solid;
+  border-radius: 20px;
+  position: relative;
+  top: 50px;
+  position: fixed;
+  top: 300px;
+  right: 100px;
+  box-shadow: 5px 5px 10px rgb(12, 12, 12);
+}
+
+.para{
+  font-weight: 600;
+  color: red;
+  font-size: 30px;
+  text-shadow: 1px 2px black;
+  
+}
